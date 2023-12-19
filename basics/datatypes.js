@@ -1,4 +1,4 @@
-// primitive data types
+// primitive data types-(STACK)
 
 // String
 // Numbernull
@@ -16,7 +16,7 @@ let largeNumber = 8888888888888888888888888n;
  const buttonId = symbol("Id")
 
 
-//  refernce types
+//  refernce types -(HEAP)
 // object
 let userOject = {
     "name" : "Kani",
@@ -27,5 +27,7 @@ let userOject = {
 // Array
 let naturalNumbers = [1,2,3,4,5,6,7,8,9,0]
 
-// function
-const sayhello = function(){};
+// function -bring a functionality to our code--- here it bring login functionality of login to the user
+const sayhello = function(){
+    console.log("logged in")
+};
